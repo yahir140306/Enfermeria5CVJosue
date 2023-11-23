@@ -1,0 +1,29 @@
+/* Establece un tamaño de fuente base para que el texto sea legible en dispositivos móviles */
+body {
+    font-size: 16px;
+}
+
+/* Hace que las imágenes se redimensionen automáticamente para ajustarse a la pantalla */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Crea un diseño de una sola columna para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Cambia el ancho del contenido principal para adaptarse a pantallas más pequeñas */
+    .container {
+        width: 100%;
+    }
+
+    /* Elimina márgenes o rellenos innecesarios para ahorrar espacio */
+    .elemento {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Otros estilos específicos para pantallas más grandes */
+@media (min-width: 769px) {
+    /* Puedes agregar estilos adicionales para pantallas más grandes aquí */
+}
